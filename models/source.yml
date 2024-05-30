@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: sources
+    database: STAGING_ZEBRINHA_AZUL
+    schema: STAGE
+    tables:
+      - name: CLIMA
+      - name: CLIMA_FORECAST
+      - name: TRANSITO
+      - name: dcidades
